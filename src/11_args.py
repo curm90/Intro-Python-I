@@ -21,10 +21,11 @@ print(f1(1, 2))
 
 
 def f2(*args):
-    sum = 0
-    for i in args:
-        sum += i
-    return sum
+    return sum(args)
+    # sum = 0
+    # for i in args:
+    #     sum += i
+    # return sum
 
 
 print(f2(1))                    # Should print 1

@@ -22,7 +22,7 @@ print(f.closed)
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
-text = ('Hello, my name is Liam\n I am 29 years old\n I am from the United Kingdom\n')
+text = ('Hello, my name is Liam\nI am 29 years old\nI am from the United Kingdom\n')
 
 with open('./bar.txt', 'w') as f2:
     f2.write(str(text))
