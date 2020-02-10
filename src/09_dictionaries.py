@@ -49,11 +49,11 @@ print(waypoints)
 # waypoints list.
 
 # YOUR CODE HERE
-waypoints[0] = {
+waypoints[0].update({
     "lat": 43,
     "lon": -130,
     "name": "not a real place"
-}
+})
 print(waypoints)
 
 # Write a loop that prints out all the field values for all the waypoints
